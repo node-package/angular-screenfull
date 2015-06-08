@@ -1,0 +1,54 @@
+/**
+ * @name angular.screenfull.less
+ * @author Anis ABID
+ * @description Angular Fullscreen Button FullScreen
+ * @version 1.0.0
+ */
+.icon.screenfull {
+  position: relative;
+  width: 20px;
+  height: 16px;
+}
+.icon.screenfull :before,
+.icon.screenfull :after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 3px;
+  background: transparent;
+}
+.icon.screenfull .t:before {
+  top: 0;
+  left: 0;
+  border-width: 3px 0 0 3px;
+}
+.on.icon.screenfull .t:before {
+  border-width: 0 3px 3px 0;
+}
+.icon.screenfull .t:after {
+  top: 0;
+  right: 0;
+  border-width: 3px 3px 0 0;
+}
+.on.icon.screenfull .t:after {
+  border-width: 0 0 3px 3px;
+}
+.icon.screenfull .b:before {
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 3px 3px;
+}
+.on.icon.screenfull .b:before {
+  border-width: 3px 3px 0 0;
+}
+.icon.screenfull .b:after {
+  bottom: 0;
+  right: 0;
+  border-width: 0 3px 3px 0;
+}
+.on.icon.screenfull .b:after {
+  border-width: 3px 0 0 3px;
+}

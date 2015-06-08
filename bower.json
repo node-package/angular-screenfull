@@ -1,0 +1,24 @@
+{
+  "name": "angular-screenfull",
+  "version": "1.0.0",
+  "homepage": "https://github.com/node-package/angular-screenfull",
+  "authors": [
+    "Anis ABID <anab.tn@gmail.com>"
+  ],
+  "description": "Angular Fullscreen Module",
+  "main": "dist/angular.screenfull.min.js",
+  "keywords": [
+    "Tabs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "screenfull": "~2.0.0"
+  }
+}
